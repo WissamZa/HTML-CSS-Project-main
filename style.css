@@ -1,0 +1,95 @@
+body {
+  background: fixed
+    linear-gradient(
+      0deg,
+      rgba(250, 47, 47, 0.8519782913165266) 29%,
+      rgba(104, 104, 162, 0.8939950980392157) 71%,
+      rgba(96, 220, 245, 1) 99%
+    );
+
+  font-family: Montserrat;
+}
+
+#info {
+  position: relative;
+}
+img {
+  position: absolute;
+  margin-top: 0%;
+  margin-left: 1%;
+}
+#Text_info {
+  margin-top: 2%;
+  margin-left: 15%;
+}
+p {
+  font-size: small;
+  font-weight: bold;
+}
+hr {
+  position: relative;
+  border: 1px;
+  border-top: 3px dotted rgb(63, 61, 61);
+  color: black;
+  height: 2px;
+  width: 2%;
+  margin-top: 3%;
+}
+/* all taple style */
+table,
+th,
+td {
+  position: relative;
+  border: 1px solid rgb(44, 45, 46);
+  text-align: center;
+}
+table.contact {
+  align-self: center;
+}
+table {
+  width: 95%;
+  top: 20px;
+  left: 20px;
+}
+th {
+  width: 50%;
+  font-weight: bolder;
+}
+li,
+.point {
+  text-align: left;
+  margin-left: 10px;
+}
+.point {
+  font: 1.5em bolder;
+}
+
+button {
+  position: relative;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  padding: 2px;
+  background-color: rgb(241, 53, 53);
+  left: 46%;
+  height: 50px;
+  width: 120px;
+}
+.container{
+    margin-top: 10%;
+}
+
+.input {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 37%;
+  width: 40%;
+  padding: 10px;
+}
+input,textarea{
+    width: 60%;
+}
+label{
+   margin-left: 25%;
+    text-align: center;
+}
